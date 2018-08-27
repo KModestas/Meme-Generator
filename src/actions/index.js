@@ -8,3 +8,8 @@ function recieveMemes(json) {
     memes
   };
 }
+
+const fetchMemesJson =()=> {
+  return fetch('')
+    .then(res => res.json());
+};
