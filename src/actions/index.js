@@ -10,6 +10,6 @@ function recieveMemes(json) {
 }
 
 const fetchMemesJson =()=> {
-  return fetch('')
+  return fetch('https://ap.imgflip.com/get_memes')
     .then(res => res.json());
 };
